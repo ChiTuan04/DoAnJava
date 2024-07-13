@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+section table{
+    border: 1px solid sandybrown;
+    width: 80%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+.table-total tr{
+    border: 2px solid sandybrown;
+}
