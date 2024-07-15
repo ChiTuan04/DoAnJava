@@ -11,25 +11,25 @@
     background-image: linear-gradient(rgb(255, 217, 171),whitesmoke);
     color: rgb(99, 59, 11);
 }
-#main-title{
+.main-title{
     width: 33%;
     text-align: center;
 }
 
-#main-item{
+.main-item{
     display: inline-flex;
     text-decoration: none;
     padding: 10px;
     font-size: 19px;
     color: rgb(99, 59, 11);
 }
-#main-item:hover{
+.main-item:hover{
     background-color: rgb(255, 220, 179);
     border-radius: 10px;
     font-size: 20px;
     box-shadow: 0 1px 10px rgb(197, 197, 197);
 }
-#Logo{
+.Logo{
     height: 150px;
     width: 200px;
 }
