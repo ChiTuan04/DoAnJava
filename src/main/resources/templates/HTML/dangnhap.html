@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm 5</title>
+    <link rel="stylesheet" th:href="@{/CSS/taikhoan.css}">
+</head>
+<body>
+<form action="" method="post" class="form">
+    <h1>Đăng Nhập</h1>
+    <label for="name-sign">Tên đăng nhập: </label><br>
+    <input type="text" id="name-sign" name="name-sign"><br>
+    <label for="password-sign">Mật khẩu: </label><br>
+    <input type="password" id="password-sign" name="password-sign"><br>
+    <a th:href="@{/home/dangky}">Chưa có tài khoản.</a>
+    <div class="button">
+        <input type="submit" value="Xác nhận" class="button1">
+        <input type="button" value="Quay lại" class="button1" onclick="window.location.href='/home'">
+    </div>
+</form>
+</body>
+</html>
