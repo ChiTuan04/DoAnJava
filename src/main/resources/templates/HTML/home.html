@@ -21,32 +21,32 @@
             <td class="main-title"><p>Nhóm 2</p></td>
             <td class="main-title"><a th:href="@{/home}"><img th:src="@{/IMG/logo.jpg}" alt="Logo Đồng Hồ" class="Logo"></a></td>
             <td class="main-title">
-                <a th:href="@{/giohang.html}" class="main-item">Giỏ hàng<span class="material-icons-outlined">shopping_cart</span></a>
-                <a class="main-item">Tài khoản<span class="material-icons-outlined">account_circle</span></a>
+                <a th:href="@{/home/giohang}" class="main-item">Giỏ hàng<span class="material-icons-outlined">shopping_cart</span></a>
+                <a th:href="@{/home/dangnhap}" class="main-item">Tài khoản<span class="material-icons-outlined">account_circle</span></a>
             </td>
         </tr>
     </table>
     <ul class="menu">
         <li class="menu-item"><a th:href="@{/home}">Trang chủ</a></li>
         <li class="menu-item brand-items">
-            <a th:href="@{/#}">Thương hiệu
+            <a>Thương hiệu
                 <span class="material-icons-outlined dropdown-icon">arrow_drop_down</span>
             </a>
             <ul class="drdn-menu">
-                <li class="drdn-item"><a th:href="@{/dong-ho1.html}">Adidas</a></li>
-                <li class="drdn-item"><a th:href="@{/dong-ho2.html}">Nike</a></li>
+                <li class="drdn-item"><a th:href="@{/home/rolex}">Rolex</a></li>
+                <li class="drdn-item"><a th:href="@{/home/casio}">Casio</a></li>
             </ul>
         </li>
         <li class="menu-item brand-items">
-            <a th:href="@{/#}">Sản phẩm
+            <a>Sản phẩm
                 <span class="material-icons-outlined dropdown-icon">arrow_drop_down</span>
             </a>
             <ul class="drdn-menu">
-                <li class="drdn-item"><a th:href="@{/dong-ho.html}">Đồng Hồ</a></li>
-                <li class="drdn-item"><a th:href="@{/phukien.html}">Phụ kiện</a></li>
+                <li class="drdn-item"><a th:href="@{/home/dong-ho}">Đồng Hồ</a></li>
+                <li class="drdn-item"><a th:href="@{/home/phukien}">Phụ kiện</a></li>
             </ul>
         </li>
-        <li class="menu-item"><a th:href="@{/dichvu.html}">Dịch vụ</a></li>
+        <li class="menu-item"><a th:href="@{/home/dichvu}">Dịch vụ</a></li>
     </ul>
 </div>
 <section style="height: max-content; padding: 20px;">
